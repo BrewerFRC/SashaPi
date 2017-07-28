@@ -1,0 +1,27 @@
+XBox Controls for "Sasha": a 2013 FIRST Robotics competition robot built by team 4564.
+
+(Robot is initially inactive.  Press start to enable it.)
+
+
+Driving:
+
+Left Joystick - Drive
+Back - Disable driving and winch
+Start - Enable driving and winch
+	Start + B - Slow driving speed
+	Start + X - Fast driving speed
+
+Thrower:
+DPad Up/Down - Raise/Lower winch
+A - Turn thrower on/off
+Click Right Thumbstick & Right Joystick - Thrower speed
+	Up - Increment by 5%
+	Down - Decrement by 5%
+	Left - Set to min. power (55%)
+	Right - Set to 100% power
+Right Trigger - Launch frisbee
+	Right Trigger + B - Clear frisbee jam
+
+Compressor:
+Y - Turn compressor on/off (currently inactive)
+Left/Right Bumpers - T-shirt cannons (currently inactive)

@@ -1,0 +1,2 @@
+sudo xboxdrv --detach-kernel-driver
+sudo python sasha.py &
