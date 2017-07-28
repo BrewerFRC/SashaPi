@@ -42,6 +42,7 @@ speedToggle = True # True = Full Speed; False = Slow Mode
 compressorEnabled = False
 throwerEnabled = False
 
+
 j = xbox.Joystick()
 motors = maestro.Controller()
 drive = drive.DriveTrain(motors, LEFT_MOTORS, RIGHT_MOTORS)
@@ -209,6 +210,7 @@ try:
             throwerEnabled = False 
             # print "Not Connected."
             
+
         ### Robot Start Boolean ###
         if j.Start():
             isStarted = True

@@ -6,6 +6,7 @@ It requires that xboxdrv be installed first:
     sudo apt-get install xboxdrv
 See http://pingus.seul.org/~grumbel/xboxdrv/ for details on xboxdrv
 Example usage:
+
     import xbox
     joy = xbox.Joystick()         #Initialize joystick
     
@@ -232,7 +233,7 @@ class Joystick:
 	else: # Reset boolean on falling edge
             self.pressDPD = False
 	    return False
-	
+
     # Dpad Left status - returns 1 (pressed) or 0 (not pressed)
     def dpadLeft(self):
         self.refresh()
@@ -323,7 +324,6 @@ class Joystick:
             self.pressA = False
 	    return False
         
-        
     # B button status - returns 1 (pressed) or 0 (not pressed)
     def B(self):
         self.refresh()
@@ -338,7 +338,7 @@ class Joystick:
 	else: # Reset boolean on falling edge
             self.pressB = False
 	    return False
-                
+
     # X button status - returns 1 (pressed) or 0 (not pressed)
     def X(self):
         self.refresh()
